@@ -1,5 +1,120 @@
+/*********************************************************
+                          GENERAL
+*********************************************************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*********************************************************
+                          UTILITY
+*********************************************************/
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 85%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+/* COLOR */
+.bg-lightblue {
+  background-color: #0084FD;
+}
+.color-lightblue {
+  color: #0084FD;
+}
+
+.bg-lightviolet {
+  background-color: #9792E4;
+}
+
+.color-lightviolet {
+  color: #9792E4;
+}
+
+.bg-white {
+  background-color: white;
+}
+/* /COLOR */
+
+/* BUTTON */
+
+/* /BUTTON */
+
+/*********************************************************
+                          HEADER
+*********************************************************/
+header {
+  height: 75px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+header .container {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header i {
+  font-size: 1.5rem;
+}
+
+header .classic-menu {
+  display: none;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  margin-left: 25px;
+}
+
+header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+
+header ul li:last-child a{
+  color: #2E2E2E;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/*********************************************************
+                          MAIN
+*********************************************************/
+.big-card {
+  background-color: red;
+  width: 66%;
+  height: 300px;
+  padding: ;
+}
+.little-card {
+  background-color: yellow;
+  width: calc(100% / 3);
+  height: 300px;
+}
+/*********************************************************
+                          FOOTER
+*********************************************************/
