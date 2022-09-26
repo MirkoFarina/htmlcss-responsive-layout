@@ -52,6 +52,7 @@
 
  .testimonials .card {
   flex-direction: row;
+  text-align: left;
  }
 
  .testimonials .card img {
