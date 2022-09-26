@@ -335,6 +335,47 @@ section {
 }
 
 /* /WORK WHIT US */
+
+/* ABOUT US  */
+.about-us .container {
+  flex-flow: column;
+}
+.about-us .text-left h2, 
+.about-us .text-left p {
+  margin-bottom: 40px;
+}
+.about-us .text-left p {
+  line-height: 40px;
+}
+
+.about-us .img-right  {
+  position: relative;
+}
+
+.about-us .img-right span i {
+  position: absolute;
+  top: 0;
+  right: 40%;
+  font-size: 3rem;
+}
+
+.about-us .img-right img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-us .img-right h3 {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.about-us .img-right a {
+  color: white;
+  font-size: 0.8rem;
+}
+/* /ABOUT US  */
 /*********************************************************
                           FOOTER
 *********************************************************/

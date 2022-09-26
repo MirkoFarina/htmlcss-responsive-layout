@@ -7,7 +7,7 @@
 @media screen and (min-width: 391px) {
     /* allineamento container  */
   header .container,
-  section .strategic-planning.container,
+  section .strategic-planning .container,
   section .testimonials.container {
     padding: 0 20px;
   }
@@ -40,7 +40,7 @@
   /*/ info section */
 
   /* PLANNING SECTION  */
-  .planning {
+  .strategic-planning {
     padding: 50px 0;
   }
   .strategic-planning .left h2 {
@@ -77,6 +77,35 @@
    font-size: 2.2rem; 
   }
   /* /WORK WHIT US */
+
+  /* ABOUT US */
+  .about-us .container {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .about-us .text-left {
+    width: 60%;
+  }
+
+  .about-us .text-left h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-us .img-right {
+    width: 30%;
+  }
+  .about-us .img-right h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-us .img-right span i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+  }
+  /* /ABOUT US */
 }
 /* /display tablet */
 
@@ -119,7 +148,7 @@
   /* /INFO SECTION */
 
   /* STRATEGIC SECTION */
-  .strategic-planning {
+  .strategic-planning .container{
     display: flex;
     align-items: flex-end;
     width: 45%;
@@ -167,5 +196,26 @@
       font-size: 2.8rem; 
      }
     /* /WORK WHIT US */
+
+    /* ABOUT US */
+    .about-us .text-left {
+      width: 60%;
+    }
+    .about-us .img-right {
+      width: 20%;
+    }
+    .about-us .img-right img {
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .about-us .img-right span i {
+      top: 20px;
+      transform: translate(0 , -50%);
+      font-size: 6rem;
+    }
+    /* /ABOUT US */
 }
 /* /DISPLAY DESKTOP */
