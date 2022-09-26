@@ -40,9 +40,12 @@
   /*/ info section */
 
   /* PLANNING SECTION  */
+  .planning {
+    padding: 50px 0;
+  }
   .strategic-planning .left h2 {
     font-size: 3.5rem;
-  }
+  } 
   /* /PLANNING SECTION  */
 
   /* TESTIMONIALS SECTION */
@@ -60,8 +63,27 @@
  }
   /* /TESTIMONIALS SECTION */
 
+  /* WORK WHIT US */
+  .work-whit-us .row {
+    flex-direction: row;
+
+  }
+  .work-whit-us .card {
+    width: calc(100% / 2 - 40px);
+    margin: 20px;
+  }
+
+  .work-whit-us h2 {
+   font-size: 2.2rem; 
+  }
+  /* /WORK WHIT US */
 }
 /* /display tablet */
+
+
+
+
+
 
 /* DISPLAY DESKTOP */
 @media screen and (min-width: 801px) {
@@ -135,5 +157,15 @@
     margin-right: 70px;
    }
    /* /TESTIMONIALS SECTION */
+
+    /* WORK WHIT US */
+    .work-whit-us .card {
+      width: calc(100% / 3 - 40px);
+    }
+
+    .work-whit-us h2 {
+      font-size: 2.8rem; 
+     }
+    /* /WORK WHIT US */
 }
 /* /DISPLAY DESKTOP */
