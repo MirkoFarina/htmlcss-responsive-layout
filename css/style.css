@@ -80,7 +80,7 @@ p {
   padding: 10px 30px;
   display: inline-block;
 }
-.circle {
+.circle-btn {
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -130,6 +130,10 @@ header ul li:last-child a{
   color: #2E2E2E;
   padding: 10px 15px;
 }
+
+/*********************************************************
+                          /HEADER
+*********************************************************/
 
 /*********************************************************
                           MAIN
@@ -224,6 +228,62 @@ section {
 
 /* /STRATEGIC PLANNING */
 
+/* TESTIMONIALS  */
+.testimonials .text-top {
+  text-align: center;
+}
+
+.testimonials .card {
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.testimonials h3 {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.testimonials h3,
+.testimonials h2, 
+.testimonials p {
+  margin-bottom: 30px;
+}
+
+.testimonials .card p {
+  font-size: 1.1rem;
+  line-height: 35px;
+}
+
+.testimonials .card p::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  font-size: 1.2rem;
+  content: "\f10d";
+} 
+.testimonials .card p::after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  font-size: 1.2rem;
+  content: "\f10e";
+} 
+
+.testimonials img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.testimonials h4 {
+  padding-bottom: 30px;
+}
+
+/* /TESTIMONIALS  */
 /*********************************************************
                           FOOTER
 *********************************************************/
