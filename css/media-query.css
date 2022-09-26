@@ -1,0 +1,106 @@
+/*************************************************************
+                  MOBILE FIRST 
+*************************************************************/
+
+/* display tablet */
+
+@media screen and (min-width: 391px) {
+ /* allineamento container  */
+   header .container {
+   padding-right: 20px;
+  }
+  
+  /* info section */
+  .info .row {
+    flex-direction: row;
+    
+  }
+  
+  .content-card {
+    padding: 20px;
+  }
+
+  .info .big-card {
+    width: calc(100% / 1.5 - 20px);
+    margin-right: 20px;
+  }
+
+  .info .big-card img {
+    width: 230px;
+  }
+  
+
+  .info .little-card {
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+  }
+  /*/ info section */
+
+  /* PLANNING SECTION  */
+  .strategic-planning .left h2 {
+    font-size: 3.5rem;
+  }
+  /* /PLANNING SECTION  */
+
+}
+/* /display tablet */
+
+/* DISPLAY DESKTOP */
+@media screen and (min-width: 801px) {
+  header .menu .hamburgher {
+    display: none;
+  }
+
+  header .menu .classic-menu {
+    display: block;
+  }
+
+  header .menu .classic-menu a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  /* INFO SECTION */
+  .info .big-card {
+    display: flex;
+  }
+
+  .info .big-card .text-left {
+    width: 50%;
+  }
+  .info .big-card .img-right {
+    width: 50%;
+    padding-left: 50px;
+    align-self: flex-end;
+  }
+  /* /INFO SECTION */
+
+  /* STRATEGIC SECTION */
+  .strategic-planning {
+    display: flex;
+    align-items: flex-end;
+    width: 45%;
+  }
+
+  .strategic-planning .left {
+    width: 50%;
+    margin-right: 60px;
+  }
+
+  .strategic-planning .left img {
+    margin-bottom: 150px;
+  }
+
+  .strategic-planning .right img {
+    width: 250px;
+  }
+  .strategic-planning .right {
+    width: 48%;
+  }
+
+  .strategic-planning .left h2 {
+    font-size: 1.8rem;
+  }
+  /* /STRATEGIC SECTION */
+}
+/* /DISPLAY DESKTOP */
