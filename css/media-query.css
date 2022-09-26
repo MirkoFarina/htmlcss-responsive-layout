@@ -217,5 +217,22 @@
       font-size: 6rem;
     }
     /* /ABOUT US */
+
+    /* START */
+    .start h3 {
+      font-size: 2.5rem;
+    }
+    
+    .start h4 {
+      font-size: 5rem;
+    }
+
+    .start .button.btn {
+      border-radius: 50px;
+      padding: 30px 70px ;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    /* /START */
 }
 /* /DISPLAY DESKTOP */

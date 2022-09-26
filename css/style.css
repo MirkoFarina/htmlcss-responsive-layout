@@ -376,6 +376,60 @@ section {
   font-size: 0.8rem;
 }
 /* /ABOUT US  */
+
+/*  START */
+.start {
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+
+.start h2 {
+  opacity: .3;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.start h3 {
+  font-size: 1.7rem;
+}
+
+.start h4 {
+  font-size: 3rem;
+  color: #FDC15F;
+}
+
+.start .btna {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.start h2,
+.start h3,
+.start h4, 
+.start p,
+.start a {
+  margin-bottom: 40px;
+}
+
+
+.start .credits {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.start .credits a {
+  text-decoration: underline;
+  color: white;
+}
+
+.start .credits span::before {
+  content: '\25CF';
+}
+.start .credits span::after {
+  content: '\25CF';
+}
+/* / START */
 /*********************************************************
                           FOOTER
 *********************************************************/
