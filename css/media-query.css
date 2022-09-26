@@ -5,11 +5,14 @@
 /* display tablet */
 
 @media screen and (min-width: 391px) {
- /* allineamento container  */
-   header .container {
-   padding-right: 20px;
+    /* allineamento container  */
+  header .container,
+  section .strategic-planning.container,
+  section .testimonials.container {
+    padding: 0 20px;
   }
-  
+
+
   /* info section */
   .info .row {
     flex-direction: row;
@@ -21,8 +24,8 @@
   }
 
   .info .big-card {
-    width: calc(100% / 1.5 - 20px);
-    margin-right: 20px;
+    width: calc(100% / 1.5 - 40px);
+    margin: 20px;
   }
 
   .info .big-card img {
@@ -31,8 +34,8 @@
   
 
   .info .little-card {
-    width: calc(100% / 3 - 20px);
-    margin-right: 20px;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
   }
   /*/ info section */
 
@@ -42,11 +45,28 @@
   }
   /* /PLANNING SECTION  */
 
+  /* TESTIMONIALS SECTION */
+ .testimonials .text-top h2 {
+  font-size: 2rem;
+ }
+
+ .testimonials .card {
+  flex-direction: row;
+ }
+
+ .testimonials .card img {
+  margin-right: 30px;
+ }
+  /* /TESTIMONIALS SECTION */
+
 }
 /* /display tablet */
 
 /* DISPLAY DESKTOP */
 @media screen and (min-width: 801px) {
+   section .testimonials.container {
+    padding-right: 20px;
+   }
   header .menu .hamburgher {
     display: none;
   }
@@ -85,10 +105,11 @@
   .strategic-planning .left {
     width: 50%;
     margin-right: 60px;
+    margin-top: 100px;
   }
 
   .strategic-planning .left img {
-    margin-bottom: 150px;
+    margin-bottom: 110px;
   }
 
   .strategic-planning .right img {
@@ -96,11 +117,22 @@
   }
   .strategic-planning .right {
     width: 48%;
+    margin-bottom: 50px;
   }
 
   .strategic-planning .left h2 {
     font-size: 1.8rem;
   }
   /* /STRATEGIC SECTION */
+
+   /* TESTIMONIALS SECTION */
+   .testimonials .text-top h2 {
+    font-size: 2.5rem;
+   }
+
+   .testimonials .card img {
+    margin-right: 70px;
+   }
+   /* /TESTIMONIALS SECTION */
 }
 /* /DISPLAY DESKTOP */
