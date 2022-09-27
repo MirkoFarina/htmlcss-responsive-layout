@@ -4,7 +4,7 @@
 
 /* display tablet */
 
-@media screen and (min-width: 391px) {
+@media screen and (min-width: 785px) {
     /* allineamento container  */
   header .container,
   section .strategic-planning .container,
@@ -141,7 +141,7 @@
 
 
 /* DISPLAY DESKTOP */
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1196px) {
    section .testimonials.container {
     padding-right: 20px;
    }
